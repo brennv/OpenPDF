@@ -1,4 +1,4 @@
-package loaders;
+package com.lowagie.json.loaders;
 
 import java.io.File;
 import java.io.FileOutputStream;

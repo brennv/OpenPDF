@@ -1,4 +1,4 @@
-package data;
+package com.lowagie.json.data;
 
 
 public class JsonWithData {
@@ -23,9 +23,9 @@ public class JsonWithData {
             "\"From a wonderful friend\"," +
             "\"If probation where and when?\": \"\"," +
             "\"Last Name\": \"Manatee\"," +
-            "\"MI\": \"H\"," + 
+            "\"MI\": \"H\"," +
             "\"May we leave voicemail\": \"Yes\"," +
-            "\"May we send mail here\": \"Yes\"," + 
+            "\"May we send mail here\": \"Yes\"," +
             "\"Monthly expenses\": \"1000\"," +
             "\"On probation or parole\": \"No\"," +
             "\"Other phone number\": \"\"," +
@@ -57,31 +57,31 @@ public class JsonWithData {
 	private final String SAMPLE_FORM_FILE_NAME = "";
 	private final String SAMPLE_FORM_JSON = "{" +
             "\"Given Name Text Box\": \"Gaurav\"," +
-            "\"Family Name Text Box\": \"Kulkarni\"," + 
+            "\"Family Name Text Box\": \"Kulkarni\"," +
             "\"Address 1 Text Box\": \"1 Main St\"," +
-            "\"Postcode Text Box\": \"94107\"," + 
+            "\"Postcode Text Box\": \"94107\"," +
             "\"City Text Box\": \"San Francisco\"," +
             "\"Height Formatted Field\": \"150cm\"," +
             "\"Driving License Check Box\": \"Yes\"," +
             "\"Language 2 Check Box\": \"Yes\"," +
         "}";
-	
+
 	public String getFileString(String fileName) {
 		switch (fileName) {
-		case CLEAN_SLATE_SINGLE_PAGE_FILE_NAME: 
+		case CLEAN_SLATE_SINGLE_PAGE_FILE_NAME:
 			return CLEAN_SLATE_SINGLE_PAGE_JSON;
-		case CHECK_BOX_FILE_NAME: 
+		case CHECK_BOX_FILE_NAME:
 			return CHECK_BOX_JSON;
 		case RADIO_BOX_FILE_NAME:
 			return RADIO_BOX_JSON;
-		case TEXT_FILE_NAME: 
+		case TEXT_FILE_NAME:
 			return TEXT_JSON;
 		case UNICODE_TEXT_FILE_NAME:
 			return UNICODE_TEXT_JSON;
 		case SAMPLE_FORM_FILE_NAME:
 			return SAMPLE_FORM_JSON;
 		}
-		
+
 		return "";
 	}
 }
