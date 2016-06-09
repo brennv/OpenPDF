@@ -5,16 +5,17 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+import com.lowagie.text
 import com.lowagie.text.Document;
 import com.lowagie.text.DocumentException;
 import com.lowagie.text.pdf.PdfCopy;
 import com.lowagie.text.pdf.PdfReader;
 import com.lowagie.text.pdf.PdfSmartCopy;
 
-import converters.JsonToPdfConverter;
-import converters.PdfToJsonConverter;
-import loaders.LocalPdfReader;
-import loaders.LocalPdfWriter;
+import com.lowagie.json.converters.JsonToPdfConverter;
+import com.lowagie.json.converters.PdfToJsonConverter;
+import com.lowagie.json.loaders.LocalPdfReader;
+import com.lowagie.json.loaders.LocalPdfWriter;
 
 /**
  *
