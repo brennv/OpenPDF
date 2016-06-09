@@ -16,64 +16,6 @@ import com.lowagie.json.converters.PdfToJsonConverter;
 import com.lowagie.json.loaders.LocalPdfReader;
 import com.lowagie.json.loaders.LocalPdfWriter;
 
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-
-import com.lowagie.json.loaders.PdfLoader;
-
-import org.codehaus.jackson.node.ArrayNode;
-import org.codehaus.jackson.node.JsonNodeFactory;
-import org.codehaus.jackson.node.ObjectNode;
-
-import com.lowagie.text.Rectangle;
-import com.lowagie.text.pdf.AcroFields;
-import com.lowagie.text.pdf.AcroFields.FieldPosition;
-import com.lowagie.text.pdf.AcroFields.Item;
-import com.lowagie.text.pdf.BaseField;
-import com.lowagie.text.pdf.PdfDictionary;
-import com.lowagie.text.pdf.PdfName;
-import com.lowagie.text.pdf.PdfNumber;
-
-import java.io.IOException;
-import java.util.Iterator;
-import java.util.Map;
-
-import com.lowagie.json.loaders.PdfLoader;
-
-import org.codehaus.jackson.JsonFactory;
-import org.codehaus.jackson.JsonNode;
-import org.codehaus.jackson.JsonParser;
-import org.codehaus.jackson.map.ObjectMapper;
-import org.codehaus.jackson.node.ArrayNode;
-
-import com.lowagie.text.DocumentException;
-import com.lowagie.text.pdf.AcroFields;
-import com.lowagie.text.pdf.AcroFields.Item;
-
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-
-import com.lowagie.text.DocumentException;
-import com.lowagie.text.pdf.AcroFields;
-import com.lowagie.text.pdf.PdfReader;
-import com.lowagie.text.pdf.PdfStamper;
-
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-
-import com.lowagie.text.DocumentException;
-import com.lowagie.text.pdf.AcroFields;
-import com.lowagie.text.pdf.PdfReader;
-import com.lowagie.text.pdf.PdfStamper;
-
-import com.lowagie.text.pdf.AcroFields;
-
-
 /**
  *
  *   @author rogerawad
