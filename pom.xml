@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.rtfarte</groupId>
+    <groupId>com.github.brennv</groupId>
     <artifactId>openpdf-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
