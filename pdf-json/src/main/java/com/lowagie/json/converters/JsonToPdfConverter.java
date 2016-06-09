@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.Map;
 
-import loaders.PdfLoader;
+import com.lowagie.json.loaders.PdfLoader;
 
 import org.codehaus.jackson.JsonFactory;
 import org.codehaus.jackson.JsonNode;
