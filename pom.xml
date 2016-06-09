@@ -23,6 +23,7 @@
         <module>pdf-html</module>
         <module>pdf-swing</module>
         <module>pdf-toolbox</module>
+        <module>pdf-json</module>
     </modules>
 
     <name>OpenPDF - Free and Open PDF</name>
