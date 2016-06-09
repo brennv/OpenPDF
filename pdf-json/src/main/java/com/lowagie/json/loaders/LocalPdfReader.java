@@ -1,4 +1,4 @@
-package loaders;
+package com.lowagie.json.loaders;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

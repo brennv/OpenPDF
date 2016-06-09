@@ -1,4 +1,4 @@
-package loaders;
+package com.lowagie.json.loaders;
 
 import com.lowagie.text.pdf.AcroFields;
 

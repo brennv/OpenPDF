@@ -1,4 +1,4 @@
-package converters;
+package com.lowagie.json.converters;
 
 import java.io.IOException;
 import java.util.Iterator;
