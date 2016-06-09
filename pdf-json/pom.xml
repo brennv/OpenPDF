@@ -9,33 +9,25 @@
         <version>1.0</version>
     </parent>
 
-    <artifactId>pdf-toolbox</artifactId>
+    <artifactId>pdf-json</artifactId>
 
     <dependencies>
 
         <dependency>
             <groupId>com.github.brennv</groupId>
-            <artifactId>pdf-html</artifactId>
+            <artifactId>pdf-json</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>com.github.brennv</groupId>
-            <artifactId>pdf-rtf</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>jfree</groupId>
-            <artifactId>jfreechart</artifactId>
-            <version>1.0.13</version>
-        </dependency>
-
-        <!-- Test Dependencies -->
 
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
-            <scope>test</scope>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-core-asl</artifactId>
+            <version>1.9.13</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.13</version>
         </dependency>
 
     </dependencies>
